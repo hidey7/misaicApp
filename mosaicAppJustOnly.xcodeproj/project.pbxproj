@@ -11,6 +11,7 @@
 		C1AFDDE82BE60547005B078D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDE72BE60547005B078D /* ViewController.swift */; };
 		C1AFDDEA2BE60549005B078D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDE92BE60549005B078D /* Assets.xcassets */; };
 		C1AFDDED2BE60549005B078D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDEC2BE60549005B078D /* Base */; };
+		C1AFDDFA2BE8DE3F005B078D /* MosaicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDF92BE8DE3F005B078D /* MosaicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C1AFDDE92BE60549005B078D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AFDDEC2BE60549005B078D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1AFDDEE2BE60549005B078D /* mosaicAppJustOnly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mosaicAppJustOnly.entitlements; sourceTree = "<group>"; };
+		C1AFDDF92BE8DE3F005B078D /* MosaicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDDE52BE60547005B078D /* AppDelegate.swift */,
-				C1AFDDE72BE60547005B078D /* ViewController.swift */,
+				C1AFDDF42BE8DBCE005B078D /* Models */,
 				C1AFDDE92BE60549005B078D /* Assets.xcassets */,
 				C1AFDDEB2BE60549005B078D /* Main.storyboard */,
 				C1AFDDEE2BE60549005B078D /* mosaicAppJustOnly.entitlements */,
+				C1AFDDFB2BE8DE49005B078D /* Views */,
+				C1AFDDF52BE8DBE2005B078D /* Controllers */,
 			);
 			path = mosaicAppJustOnly;
+			sourceTree = "<group>";
+		};
+		C1AFDDF42BE8DBCE005B078D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1AFDDF52BE8DBE2005B078D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AFDDE72BE60547005B078D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1AFDDFB2BE8DE49005B078D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1AFDDF92BE8DE3F005B078D /* MosaicView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1AFDDE82BE60547005B078D /* ViewController.swift in Sources */,
+				C1AFDDFA2BE8DE3F005B078D /* MosaicView.swift in Sources */,
 				C1AFDDE62BE60547005B078D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
